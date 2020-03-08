@@ -50,7 +50,6 @@ def turn(board)
     move(board,index)
     display_board(board)
   else 
-    until valid_move?(board,index)
     turn(board)
    end 
   end
